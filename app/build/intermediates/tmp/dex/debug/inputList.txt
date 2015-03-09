@@ -1,0 +1,8 @@
+/Users/niravn/workspace/ads_android/app/ads_demo_android/SimpleTwitterWithFragments/app/build/intermediates/classes/debug
+/Users/niravn/workspace/ads_android/app/ads_demo_android/SimpleTwitterWithFragments/app/build/intermediates/pre-dexed/debug/codepath-utils-152894007d2edbb12757c3a775b9567361bb5579.jar
+/Users/niravn/workspace/ads_android/app/ads_demo_android/SimpleTwitterWithFragments/app/build/intermediates/pre-dexed/debug/codepath-oauth-0.3.0-eb18ea60e43775fac4159d44fc9efb7d5072f60a.jar
+/Users/niravn/workspace/ads_android/app/ads_demo_android/SimpleTwitterWithFragments/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.3-d169de1845d7b2c4ff6030f5a4fc756ca08273fd.jar
+/Users/niravn/workspace/ads_android/app/ads_demo_android/SimpleTwitterWithFragments/app/build/intermediates/pre-dexed/debug/ActiveAndroid-3.1-adcddac4c58-2254926d347825284c42f3403bd65cd0eec612dd.jar
+/Users/niravn/workspace/ads_android/app/ads_demo_android/SimpleTwitterWithFragments/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.8.4-147195ffb68ea4b6ac3d2c1e534149bf39c5e394.jar
+/Users/niravn/workspace/ads_android/app/ads_demo_android/SimpleTwitterWithFragments/app/build/intermediates/pre-dexed/debug/scribe-codepath-3731aef7b7f0e078c67762ccc084f19e88f8c59a.jar
+/Users/niravn/workspace/ads_android/app/ads_demo_android/SimpleTwitterWithFragments/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-7c6a46393aca809744ae9de98f4511d08f7e6f78.jar
