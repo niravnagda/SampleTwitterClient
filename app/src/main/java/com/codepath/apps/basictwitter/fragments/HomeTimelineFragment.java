@@ -1,6 +1,8 @@
 package com.codepath.apps.basictwitter.fragments;
 
+import org.apache.http.Header;
 import org.json.JSONArray;
+import org.json.JSONObject;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -22,16 +24,16 @@ public class HomeTimelineFragment extends TweetsListFragment {
 	
 	public void populateTimeline() {
 		client.getHomeTimeline(new JsonHttpResponseHandler() {
-			@Override
-			public void onSuccess(JSONArray json) {
-				addAll(Tweet.fromJSONArray(json));
-			}
-			
-			@Override
-			public void onFailure(Throwable e, String s) {
-      		    Log.d("debug", e.toString());
-      		    Log.d("debug", s.toString());
-			}
+            @Override
+            public void onSuccess(int statusCode, Header[] headers, JSONArray json) {
+                addAll(Tweet.fromJSONArray(json));
+            }
+
+            @Override
+            public void onFailure(int statusCode, Header[] headers, String s, Throwable e) {
+                Log.d("debug", e.toString());
+                Log.d("debug", s.toString());
+            }
 		});
 	}
 }

@@ -6,4 +6,4 @@
     <!-- When not selected, use blank-->
     <item android:drawable="@drawable/star"
         android:state_checked="false"/>
-</selector><!-- From: file:/Users/niravn/workspace/ads_android/app/ads_demo_android/SimpleTwitterWithFragments/app/src/main/res/drawable/togglebutton.xml -->
+</selector><!-- From: file:/Users/niravn/workspace/SampleTwitterClient-master/app/src/main/res/drawable/togglebutton.xml -->

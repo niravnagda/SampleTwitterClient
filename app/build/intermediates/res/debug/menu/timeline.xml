@@ -10,4 +10,4 @@
         android:id="@+id/action_profile"
         android:showAsAction="ifRoom"
         android:title="@string/Profile"/>
-</menu><!-- From: file:/Users/niravn/workspace/ads_android/app/ads_demo_android/SimpleTwitterWithFragments/app/src/main/res/menu/timeline.xml -->
+</menu><!-- From: file:/Users/niravn/workspace/SampleTwitterClient-master/app/src/main/res/menu/timeline.xml -->

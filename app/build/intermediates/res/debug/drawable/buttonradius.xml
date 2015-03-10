@@ -21,4 +21,4 @@
             <gradient android:angle="-90" android:startColor="#ffb29ee7" android:endColor="#ffa48de7" />
         </shape>
     </item>
-</selector><!-- From: file:/Users/niravn/workspace/ads_android/app/ads_demo_android/SimpleTwitterWithFragments/app/src/main/res/drawable/buttonradius.xml -->
+</selector><!-- From: file:/Users/niravn/workspace/SampleTwitterClient-master/app/src/main/res/drawable/buttonradius.xml -->

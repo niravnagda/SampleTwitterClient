@@ -23,35 +23,43 @@
         android:id="@+id/tvBody"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/tvUserName"
-        android:layout_below="@+id/tvUserName"
-        android:text="This is the tweet body" />
+        android:text="This is the tweet body"
+        android:layout_below="@+id/ivProfileImage"
+        android:layout_toRightOf="@+id/ivProfileImage"
+        android:layout_toEndOf="@+id/ivProfileImage" />
 
     <ImageButton
-        android:layout_width="20dp"
-        android:layout_height="20dp"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
         android:layout_below="@id/tvBody"
         android:scaleType="centerCrop"
+        android:layout_alignLeft="@+id/tvBody"
         android:id="@+id/forward"
+        android:background="@drawable/buttonwhitebackground"
         android:src="@drawable/forward" />
 
     <ImageButton
-        android:layout_width="20dp"
-        android:layout_height="20dp"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
         android:layout_below="@id/tvBody"
         android:scaleType="centerCrop"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_toRightOf="@id/forward"
+        android:background="@drawable/buttonwhitebackground"
         android:id="@+id/reply"
         android:src="@drawable/reply" />
     />
     <ToggleButton
-        android:layout_width="20dp"
-        android:layout_height="20dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:layout_below="@id/tvBody"
         android:scaleType="centerCrop"
+        android:textOn=""
+        android:textOff=""
         android:layout_toRightOf="@id/reply"
         android:id="@+id/favorite"
         android:checked="false"
-        android:src="@drawable/togglebutton"/>
+        android:background="@drawable/togglebutton"/>
 </RelativeLayout>
-<!-- From: file:/Users/niravn/workspace/ads_android/app/ads_demo_android/SimpleTwitterWithFragments/app/src/main/res/layout/tweet_item.xml -->
+<!-- From: file:/Users/niravn/workspace/SampleTwitterClient-master/app/src/main/res/layout/tweet_item.xml -->

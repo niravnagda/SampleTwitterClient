@@ -5,7 +5,10 @@ import android.app.ActionBar.TabListener;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
- 
+import android.view.View;
+
+import com.codepath.apps.basictwitter.R;
+
 public class FragmentTabListener<T extends Fragment> implements TabListener {
         private Fragment mFragment;
 	private final FragmentActivity mActivity;
@@ -46,6 +49,8 @@ public class FragmentTabListener<T extends Fragment> implements TabListener {
 			sft.attach(mFragment);
 		}
 		sft.commit();
+        mActivity.getActionBar().setTitle(tab.getText());
+
 	}
  
 	public void onTabUnselected(Tab tab, android.app.FragmentTransaction ft) {

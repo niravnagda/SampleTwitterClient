@@ -11,7 +11,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.codepath.apps.basictwitter.models.Tweet;
-import com.nostra13.universalimageloader.core.ImageLoader;
+import com.squareup.picasso.Picasso;
 
 public class TweetArrayAdapter extends ArrayAdapter<Tweet> {
 	public TweetArrayAdapter(Context context, List<Tweet> tweets) {
@@ -35,9 +35,10 @@ public class TweetArrayAdapter extends ArrayAdapter<Tweet> {
         TextView tvUserName = (TextView) v.findViewById(R.id.tvUserName);
         TextView tvBody = (TextView) v.findViewById(R.id.tvBody);
         ivProfileImage.setImageResource(android.R.color.transparent);
-        ImageLoader imageLoader = ImageLoader.getInstance();
         // Populate views with tweet data
-        imageLoader.displayImage(tweet.getUser().getProfileImageUrl(), ivProfileImage);
+        Picasso.with(getContext()).
+                load(tweet.getUser().getProfileImageUrl()).
+                into(ivProfileImage);
         tvUserName.setText(tweet.getUser().getScreenName());
         tvBody.setText(tweet.getBody());
         return v;
